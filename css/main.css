@@ -1,0 +1,12 @@
+aside {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 9999;
+}
+aside .open,.close , .deration h3 {
+    cursor: pointer;
+}
+.deration p {
+    display: none;
+}
