@@ -87,3 +87,25 @@ let counter = setInterval( function () {
 
 
 
+$(window).on('scroll'  , function(){
+  let  scroll = $(window).scrollTop();
+  
+  if (scroll > 100){
+    $('.UP').slideDown(200);
+  }else {
+    $('.UP').slideUp(200);
+  }
+
+})
+
+
+
+$('.UP').on('click' , function () {
+  $('html , body').animate({scrollTop : 0} , 1000)
+
+  
+})
+
+
+
+
